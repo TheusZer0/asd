@@ -1,0 +1,3 @@
+curl -XPOST "http://localhost:8086/query" \
+--data-urlencode "q=CREATE USER meilana WITH PASSWORD 'maria' WITH ALL PRIVILEGES"
+{"results":[{"statement_id":0}]} --header "Authorization: Token jTu0WzDeDhuvLiKniomYLxNwBDvtpJVrb8XKI7d3fV1EkQw-D5VgX5p54UWI78bl5PIH-fzguKijGFBGZTlHVg=="
